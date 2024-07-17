@@ -1,5 +1,5 @@
 # GMT Example 01
-# 
+#https://github.com/RobertCrummett/GMT-Illustration-Gallery.git 
 # Create two contour maps of the low order geoid using the
 # Hammer equal area projection. Show one map centered on
 # Greenwich and one on the dateline. Draw positive contours
