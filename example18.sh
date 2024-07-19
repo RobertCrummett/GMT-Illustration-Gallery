@@ -9,7 +9,6 @@
 #
 # Finally, determine the area and volume of all of the 
 # selected seamounts.
-
 gmt begin ex18
 # Use spherical gmt projection since SS data define on a sphere.
 gmt set PROJ_ELLIPSOID Sphere FORMAT_FLOAT_OUT %g
