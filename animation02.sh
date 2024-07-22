@@ -2,6 +2,7 @@
 # GMT Animation Example 02
 #
 # Indiana Jones Animation Map
+cp data/WED-A_Vid_4.zip .
 unzip WED-A_Vid_4.zip
 
 cat << 'EOF' > pre.sh
@@ -61,4 +62,4 @@ gmt movie main.sh -Iin.sh -Sbpre.sh -NIndiana_Jones -Tdistance_vs_frame.txt \
     -AIndianaJones_RaidersMarch.mp3 -Cfhd -Fmp4 -Vi -D60 -K+p -Zs \
     -Etitle.sh+d6s+fo1s
 
-rm -f IndianaJones_RaidersMarch.mp3 IndianaJones_Logo.png
+rm -f IndianaJones_RaidersMarch.mp3 IndianaJones_Logo.png WED-A_Vid_4.zip

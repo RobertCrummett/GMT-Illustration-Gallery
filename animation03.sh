@@ -15,6 +15,7 @@
 # around the world and with detail in western Europe.
 # The movie took almost 26 minutes to render on an 8-core Intel® Core™ i7-7700 CPU @ 3.60GHz.
 #--------------------------------------------------------------------------------
+cp data/Messi_Goals.txt .
 
 # 1. Calculate map/canvas height
 main_map_region=-130/145/-40/64		# West/East/South/North boundaries
@@ -89,4 +90,4 @@ gmt movie main.sh -Iin.sh -Sbpre.sh -C${canvas_width}cx${canvas_height}cx80 -Tda
 	-Lc1+jTL+o0.3/0.3+gwhite+h2p/-2p+r -Fmp4
 
 # 6. Delete temporary files
-rm gmt.history
+rm gmt.history Messi_Goals.txt
