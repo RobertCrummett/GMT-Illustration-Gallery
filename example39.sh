@@ -15,7 +15,7 @@ echo L = 30 | gmt text -F+f16p+cTR
 gmt colorbar --FORMAT_FLOAT_MAP="%'g" -Dx3c/-0.5c+jTC+w13c/0.25c+h -Bxaf -By+lm
 gmt grdimage v2.nc -I+a45+nt0.75 -JG -Rg -Bg -X-3c -Y5c
 echo L = 90 | gmt text -F+f16p+cTR -B+t"Venus Spherical Harmonic Model" \
-     --MAP_TITLE_OFFSET=5.5c
+    --MAP_TITLE_OFFSET=5.5c
 gmt grdimage v3.nc -I+a45+nt0.75 -JG -Rg -Bg -X-3c -Y5c
 echo L = 180 | gmt text -F+f16p+cTR
 rm -f v?.nc
